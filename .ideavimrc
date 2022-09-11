@@ -1,0 +1,32 @@
+
+
+" :nmap gh <Action>(QuickImplementations)
+" :nmap gh <Action>(QuickJavaDoc)
+:nmap gh <Action>(ShowErrorDescription)
+
+Plug 'tpope/vim-commentary'
+
+"Plug 'terryma/vim-multiple-cursors'
+
+
+set clipboard
+"Show current vim mode in status par
+set showmode
+"Code Smart Joining
+set ideajoin
+"Relative Line Numbers
+set relativenumber
+
+
+sethandler <C-v> n:vim i:ide v:vim s:vim
+
+set scrolloff=10
+
+
+"nnoremap yy "+yy
+"vnoremap y "+y
+
+"nnoremap p "+p
+"vnoremap p "+p
+"nnoremap P "+P
+"vnoremap P "+P
